@@ -1,1 +1,13 @@
-<h1>Maubox</h1>
+<link rel="stylesheet" href="styles/highlight.css">
+<script src="styles/highlight.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<pre><code class="html">&lt;h1 class="attribute-value"&gt;Sample&lt;/h1&gt;</code></pre>
+
+<script>
+  $(document).ready(function () {
+    $('pre code').each(function (i, block) {
+      hljs.highlightBlock(block);
+    });
+  });
+</script>
