@@ -1,0 +1,74 @@
+.ui {
+  background: #ffffd1;
+  color: #222;
+  border-radius: 15px;
+  border-top-right-radius: 0;
+  padding: 15px;
+  width: 250px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  box-shadow: -3px 3px rgba(0, 0, 0, 0.15);
+}
+
+.ui h1 {
+  margin: 10px;
+}
+
+.ui input {
+  padding: 10px;
+  width: 80%;
+  border: 1px solid #888;
+}
+
+.ui span {
+  background: rgba(0, 0, 0, 0.1);
+  padding: 5px 10px;
+  border-radius: 4px;
+  display: inline-block;
+  margin: 10px 6px;
+}
+
+.ui .active {
+  background: rgba(92, 196, 100, 0.7);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.ui a,
+.ui a:visited {
+  color: blue;
+  text-decoration: none;
+}
+
+.ui a:hover {
+  text-decoration: underline;
+}
+
+.ui-header {
+  font-size: 0.8em;
+}
+
+.ui-header a:link,
+.ui-header a:hover {
+  color: #555;
+}
+
+.ui .exit {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.ui .exit button {
+  font-size: 2em;
+  border: 0;
+  background: transparent;
+}
+
+.ui .exit button:hover {
+  cursor: pointer;
+}
