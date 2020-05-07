@@ -1,0 +1,109 @@
+body {
+  padding-top: 80px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  color: #444;
+  font-size: 1.3em;
+}
+
+.light {
+  color: rgb(223, 223, 223);
+}
+
+.highlight {
+  color: rgb(124, 151, 192);
+}
+
+.logo {
+  width: 120px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+img {
+  -khtml-user-select: none;
+  -o-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  pointer-events: none;
+  user-select: none;
+}
+
+::selection {
+  background: #1d1d1d; /* WebKit/Blink Browsers */
+  color: #fff;
+}
+::-moz-selection {
+  background: #1d1d1d; /* Gecko Browsers */
+  color: #fff;
+}
+
+.buru {
+  background: rgb(68, 71, 76);
+  color: #fff;
+}
+
+.sec {
+  /* margin: 50px 0; */
+  padding: 50px 0;
+}
+
+.btn {
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+.block {
+  border-radius: 4px;
+  line-height: 1;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+.yellow {
+  background: rgb(230, 228, 217);
+}
+.blue {
+  background: rgb(217, 223, 230);
+}
+.red {
+  background: rgb(230, 217, 218);
+}
+.orange {
+  background: rgb(230, 225, 217);
+  margin-bottom: 90px;
+}
+.purple {
+  background: rgb(229, 217, 230);
+}
+.grey {
+  background: rgb(230, 230, 230);
+}
+
+.smf {
+  font-size: 0.8em;
+}
+
+.page a {
+  text-decoration: underline;
+  color: rgb(133, 88, 88);
+  font-weight: bold;
+}
+
+.p-one {
+  padding: 40px 0;
+}
+
+.p-two {
+  padding: 80px 0;
+}
+
+.ic {
+  width: 150px;
+}
+
+.tools a {
+  color: #333;
+  text-decoration: underline;
+}
