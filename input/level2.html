@@ -3,50 +3,62 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    />
-    <link rel="stylesheet" href="../assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css//bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
     <title>Document</title>
   </head>
 
   <body>
     <div class="container">
       <div>
-        <a href="/" class="btn">Home</a>
+        <a href="/input" class="btn"><< Menu</a>
       </div>
       <div class="text-center">
         <div class="pt-3 pb-3">
-          <h2>"go to hotkeys" trainer - level 1</h2>
+          <h2 id="title">Clic 'comenzar' para jugar!</h2>
         </div>
         <div id="startCon">
-          <button id="startBtn" class="btn btn-primary">start game</button>
+          <button id="startBtn" class="btn btn-primary">comenzar</button>
         </div>
-        <div>
-          <img src="" alt="" id="painting" draggable="false" />
+        <div id="qui">
+          <audio id="audio" controls>
+            <source id="audioSource" src="" type="audio/mpeg" />
+          </audio>
+          <div class="pt-3">
+            <button class="btn btn-sm btn-primary mr-2" id="oneBtn">
+              CH
+            </button>
+            <button class="btn btn-sm btn-primary ml-2" id="twoBtn">
+              SH
+            </button>
+          </div>
+          <div class="mt-2">
+            <img src="" alt="" id="painting" draggable="false" />
+          </div>
         </div>
         <div>
           <div id="time"></div>
           <div id="correct"></div>
           <div id="score"></div>
         </div>
-        <hr />
-        <div id="shower">
-          <button
-            class="btn btn-primary"
-            type="button"
-            data-toggle="collapse"
-            data-target="#collapseExample"
-            aria-expanded="false"
-            aria-controls="collapseExample"
-          >
-            Show Details
-          </button>
-        </div>
-        <div class="collapse" id="collapseExample">
-          <div class="card card-body">
-            <ul id="gui"></ul>
+        <div id="details">
+          <hr />
+          <div id="shower">
+            <button
+              class="btn btn-sm btn-outline-primary"
+              type="button"
+              data-toggle="collapse"
+              data-target="#collapseExample"
+              aria-expanded="false"
+              aria-controls="collapseExample"
+            >
+              Show Details
+            </button>
+          </div>
+          <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+              <ul id="gui"></ul>
+            </div>
           </div>
         </div>
       </div>
