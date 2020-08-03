@@ -71,6 +71,10 @@ document.getElementById('twoBtn').addEventListener('click', () => {
   check(1);
 });
 
+document.getElementById('threeBtn').addEventListener('click', () => {
+  check(2);
+});
+
 const check = (x) => {
   const questions = 20;
   if (paintingID === x) {
